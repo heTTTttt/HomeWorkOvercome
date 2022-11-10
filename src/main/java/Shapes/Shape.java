@@ -1,7 +1,7 @@
 package Shapes;
 
-public interface Area {
-    Integer area();
+public interface Shape {
+    Integer getArea();
 
 
 

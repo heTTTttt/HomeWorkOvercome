@@ -1,7 +1,4 @@
-
-
-import Shapes.Figure;
-
+package Shapes;
 
 public class Main {
 
