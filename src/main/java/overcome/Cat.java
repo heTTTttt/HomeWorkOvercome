@@ -1,4 +1,4 @@
-package Overcome;
+package overcome;
 
 public class Cat extends Participant{
 

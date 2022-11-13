@@ -1,14 +1,15 @@
-package Shapes;
+package shapes;
 
 public class Figure implements Shape {
 
     public String name;
     int area;
+    int a;
+    int b;
+    int r;
 
-    public Figure(String name, int area) {
+    public Figure(String name) {
         this.name = name;
-        this.area = area;
-
     }
 
     public String getName() {
@@ -16,7 +17,7 @@ public class Figure implements Shape {
     }
 
     @Override
-    public Integer getArea() {
+    public double getArea() {
         return area;
     }
     public static int getAllArea(Figure[] figures){

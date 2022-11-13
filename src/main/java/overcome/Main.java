@@ -1,4 +1,4 @@
-package Overcome;
+package overcome;
 
 public class Main {
 
@@ -14,6 +14,13 @@ public class Main {
         participants[0] = new Cat(3, 600, "Tisha");
         participants[1] = new Human(2, 900, "Dr.Jekyll or Mr.Hide");
         participants[2] = new Robot(300, 250_000, "Steel Giant");
+
+        System.out.println("Учасник може стрибнути на " + participants[0].getJumpHeight() + "m");
+        System.out.println("Учасник може пробігти " + participants[0].getRunDistance() + "m");
+        System.out.println(participants[0]);
+        System.out.println(participants[1]);
+        System.out.println(participants[2]);
+        System.out.println("-----------------------------------------");
 
         for(Participant participant : participants){
 

@@ -1,4 +1,4 @@
-package Overcome;
+package overcome;
 
 public abstract class Participant {
 
@@ -22,4 +22,9 @@ public abstract class Participant {
     }
 
     public Integer getJumpHeight(){ return jumpHeight; }
+
+    public String toString(){
+        return "Учасник " + name + " може стрибнути на " + jumpHeight + "м"
+                + " та пробігти " + runDistance + "м";
+    }
 }

@@ -1,4 +1,4 @@
-package Overcome;
+package overcome;
 
 public class Wall implements Obstacle{
 
@@ -11,10 +11,12 @@ public class Wall implements Obstacle{
     }
     @Override
     public boolean overcome(Participant participant) {
-        if(height <= participant.getJumpHeight()){
+        /*if(height <= participant.getJumpHeight()){
             return true;
         }
         return false;
+         */
+        return height <= participant.getJumpHeight();
     }
 
     public String getObstacleName() {

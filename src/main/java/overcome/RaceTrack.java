@@ -1,4 +1,4 @@
-package Overcome;
+package overcome;
 
 public class RaceTrack implements Obstacle {
     Integer distance;
@@ -11,10 +11,12 @@ public class RaceTrack implements Obstacle {
 
     @Override
     public boolean overcome(Participant participant) {
-        if(distance <= participant.getRunDistance()){
+        /*if(distance <= participant.getRunDistance()){
             return true;
         }
         return false;
+         */
+        return distance <= participant.getRunDistance();
     }
 
     public String getObstacleName() {
